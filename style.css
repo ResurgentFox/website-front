@@ -482,24 +482,31 @@ footer{
         margin: 0 auto;
         max-width: 80%;
     }
-    .contact__name{
-        display: flex;
-        flex-wrap: wrap;
-    }
 
 
     .form__inputs{
         display: flex;
-        flex-wrap: wrap;
-        width: 360px;
+        flex-direction: column;
+    }
+    input[type=text]{
+        width: 250px;
+        max-width: 100%;
+    }
+    input[type=email]{
+        width: 250px;
         max-width: 100%;
     }
     textarea{
-        width: 360px;
+        width: 250px;
         max-width: 100%;
     }
     .button__block{
         display: flex;
         justify-content: flex-start;
     }
+
+    .social img{
+        margin-left: 10px;
+    }
+
 }
