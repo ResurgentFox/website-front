@@ -484,6 +484,18 @@ footer{
     }
 
 
+    .button__block{
+        display: flex;
+        justify-content: flex-start;
+    } 
+
+    .social img{
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 850px){
     .form__inputs{
         display: flex;
         flex-direction: column;
@@ -500,13 +512,4 @@ footer{
         width: 250px;
         max-width: 100%;
     }
-    .button__block{
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .social img{
-        margin-left: 10px;
-    }
-
 }
